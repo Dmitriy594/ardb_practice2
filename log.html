@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>АРДБ — запись</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__inner container">
+      <div class="logo header__logo">
+        <img src="icons/логотип.svg" alt="логотип" class="logo__img">
+      </div>
+      <nav class="nav header__nav">
+        <a class="nav__item" href="index.html">Главная</a>
+        <a class="nav__item" href="#">Запись</a>
+        <a class="nav__item" href="sign.html">Личный кабинет</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main container">
+    <section class="form-card">
+      <h2 class="form-card__title">Форма записи</h2>
+      <form class="form-card__form" action="#" method="post">
+        <div class="form-row">
+          <label class="form-row__label">Выберите врача</label>
+          <select class="form-row__control">
+            <option>—</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label class="form-row__label">Дата и время</label>
+          <select class="form-row__control">
+            <option>—</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label class="form-row__label">ФИО пациента</label>
+          <input class="form-row__control" type="text" placeholder="Введите ФИО">
+        </div>
+
+        <div class="form-row">
+          <label class="form-row__label">Дата рождения</label>
+          <input class="form-row__control" type="date">
+        </div>
+
+        <div class="form-row">
+          <label class="form-row__label">Телефон представителя</label>
+          <input class="form-row__control" type="tel" placeholder="Введите телефон">
+        </div>
+
+        <div class="form-actions">
+          <button class="btn form-actions__submit" type="submit">Записаться</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="schedule-card">
+      <h2 class="schedule-card__title">График работы специалистов</h2>
+
+      <ul class="schedule-card__list">
+        <li class="schedule-card__item">
+          <img src="img/Ellipse 4.png" alt="" class="schedule-card__avatar">
+          <div class="schedule-card__info">
+            <div class="schedule-card__name">Иванова А.И.</div>
+            <div class="schedule-card__spec">Педиатр</div>
+            <div class="schedule-card__time">Пн,Ср,Пт 8:00-15:00</div>
+            <div class="schedule-card__room">Кабинет 120</div>
+          </div>
+        </li>
+
+        <li class="schedule-card__item">
+          <img src="img/Ellipse 4.png" alt="" class="schedule-card__avatar">
+          <div class="schedule-card__info">
+            <div class="schedule-card__name">Иванова А.И.</div>
+            <div class="schedule-card__spec">Педиатр</div>
+            <div class="schedule-card__time">Пн,Ср,Пт 8:00-15:00</div>
+            <div class="schedule-card__room">Кабинет 120</div>
+          </div>
+        </li>
+
+        <li class="schedule-card__item">
+          <img src="img/Ellipse 4.png" alt="" class="schedule-card__avatar">
+          <div class="schedule-card__info">
+            <div class="schedule-card__name">Иванова А.И.</div>
+            <div class="schedule-card__spec">Педиатр</div>
+            <div class="schedule-card__time">Пн,Ср,Пт 8:00-15:00</div>
+            <div class="schedule-card__room">Кабинет 120</div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="pager">
+        <button class="pager__btn">←</button>
+        <div class="pager__pages">
+          <button class="pager__page active">1</button>
+          <button class="pager__page">2</button>
+          <button class="pager__page">3</button>
+        </div>
+        <button class="pager__btn">→</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo"><img src="icons/логотип.svg" alt="логотип" class="logo__img"></div>
+      <div class="footer__socials">
+        <a class="social" href="#"><img src="icons/Social Icons.svg" alt="tg" class="logo__img"></a>
+        <a class="social" href="#"><img src="icons/Social Icons (1).svg" alt="VK" class="logo__img"></a>
+        <a class="social" href="#"><img src="icons/image 1.svg" alt="ok" class="logo__img"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
